@@ -11,7 +11,7 @@
     100% Free To use For Personal And Commercial Use.
 
     IN EXCHANGE JUST TELL PEOPLE ABOUT THIS WEBSITE
-   
+
 ========================================================  */
 
 
@@ -21,6 +21,7 @@
 ==================================*/
 
 @import url(http://fonts.googleapis.com/css?family=Roboto); /* GOOGLE FREE FONTS */
+@import url(http://fonts.googleapis.com/css?family=Open+Sans); /* GOOGLE FREE FONTS */
 
 body {
     font-family: 'Roboto', sans-serif;
@@ -64,7 +65,7 @@ section {
 
 /*STYLE OF BACKGROUND IMAGE*/
 #home {
-    background: url(../img/home.jpg) no-repeat center center; /*Full Witdth background image*/
+    background: url(../img/BigData.jpg) no-repeat center center; /*Full Witdth background image*/
     padding: 0;
     -webkit-background-size: cover;
     background-size: cover;
@@ -74,7 +75,7 @@ section {
     /*STYLE FOR OVERLAY CLASS - WHICH IS ABOVE IMAGE WITH OPACITY/TRANSPARENCY 0.75*/
     #home .overlay {
         padding-top: 90px;
-        background-color: rgba(35, 133, 161,0.75); /*.75 opacity of the color so that background image is visible*/
+        background-color: rgba(35, 133, 161,0.60); /*.75 opacity of the color so that background image is visible*/
         min-height: 600px;
         color: #fff;
     }
@@ -83,7 +84,7 @@ section {
         padding-top: 80px;
         font-weight: 900;
         font-size: 100px;
-        font-family: 'Browallia New';
+        font-family: 'Roboto';
     }
 
     @media (max-width : 480px)
@@ -92,7 +93,7 @@ section {
         padding-top: 80px;
         font-weight: 900;
         font-size :80px;
-        font-family: 'Browallia New';
+        font-family: 'Roboto';
     }
 }
 
@@ -102,7 +103,7 @@ section {
         padding-top: 80px;
         font-weight: 900;
         font-size :55px;
-        font-family: 'Browallia New';
+        font-family: 'Roboto';
     }
 }
 /*SMPLE CLASS TO ADJUST SECTION PADDING & HEIGHT*/
@@ -118,7 +119,7 @@ section {
 =========================================*/
 
 .parallax-like {
-    background: url(../img/stats.jpg) no-repeat center center; /* DEFINE IMAGE PATH CAREFULLY*/
+    background: url(../img/BigData.jpg) no-repeat center center; /* DEFINE IMAGE PATH CAREFULLY*/
     padding: 0;
     -webkit-background-size: cover;
     background-size: cover;
@@ -128,7 +129,7 @@ section {
 
     .parallax-like .overlay {
         min-height: 150px;
-        background: rgba(35, 133, 161,0.9);
+        background: rgba(35, 133, 161,0.7);
         font-size: 40px;
         padding-bottom: 60px;
         padding-top: 60px;
@@ -145,6 +146,13 @@ section {
     transition-duration: 0.3s;
     -webkit-transition-duration: 0.3s; /* Safari */
     z-index: 1;
+}
+/*================================
+    VIDEO SECTION STYLES
+==================================*/
+#services {
+    text-align: center;
+    font-family: 'Open Sans'
 }
 
 /*================================
